@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* Root */
+:root{
+    
+  }
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Global styles */
+  header{
+    background-color: rgb(60, 60, 60);
+  }
+
+  body{
+    background-color: gray;
+  }
+
+  div.gif{
+    background:url(Sources/Frames/Memphis\ 360px.png) no-repeat center;
+    background-color: rgb(40, 40, 100);
+
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+    padding: 0px;
+    margin: 0 auto;
+  }
+
+  img.gif{
+    box-shadow: rgba(0, 0, 0, 0.250) 1px 1px 10px;
+  }
+
+  footer{
+    background-color: rgb(184, 184, 184);
+  }
